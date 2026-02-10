@@ -13,17 +13,17 @@ export const socialLinks = {
 
 export const projects = [
   {
-    title: "FlexiHeart",
-    description: "A secure, scalable medical app enabling seamless patient-doctor interactions.",
-    tags: ["Node.js", "MongoDB", "React.js", "React Native", "Google Cloud VM"],
-    link: "#",
+    title: "TadreebTech",
+    description: "An interactive e-learning platform where I teach web development and programming concepts.",
+    tags: ["Next.js", "React.js", "E-learning", "Web Development"],
+    link: "https://www.tadreebtech.com/",
     image: "project-1",
   },
   {
     title: "Mabi3a",
-    description: "A web application for business sales and financial management.",
-    tags: ["Node.js", "React.js", "Next.js", "TailwindCSS", "Nginx", "CSS"],
-    link: "#",
+    description: "A self-founded SaaS e-commerce platform, similar to Shopify, that helps businesses manage sales and finances, leveraging AI for enhanced features.",
+    tags: ["Next.js", "TailwindCSS", "CSS", "AWS", "Bunny CDN", "Gemini AI Services"],
+    link: "https://mabi3a.com",
     image: "project-2",
   },
   {

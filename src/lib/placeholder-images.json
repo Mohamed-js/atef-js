@@ -2,15 +2,15 @@
   "placeholderImages": [
     {
       "id": "project-1",
-      "description": "A screenshot of an e-commerce platform homepage",
-      "imageUrl": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NzA3NTMzMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "online shopping"
+      "description": "A screenshot of the TadreebTech e-learning platform.",
+      "imageUrl": "https://images.unsplash.com/photo-1516321497487-e288fb19713f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxlLWxlYXJuaW5nJTIwcGxhdGZvcm18ZW58MHx8fHwxNzEyODQ2MjM3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "e-learning platform"
     },
     {
       "id": "project-2",
-      "description": "A task management application interface",
-      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxrYW5iYW4lMjBib2FyZHxlbnwwfHx8fDE3NzA2ODU4NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      "imageHint": "kanban board"
+      "description": "The dashboard of the Mabi3a SaaS platform.",
+      "imageUrl": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxzYWFzJTIwZGFzaGJvYXJkfGVufDB8fHx8MTcxMjg0NjI4N3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "saas dashboard"
     },
     {
       "id": "project-3",
