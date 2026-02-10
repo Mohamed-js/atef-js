@@ -5,11 +5,15 @@ import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
 import { Badge } from "../ui/badge";
 import { ArrowRight } from "lucide-react";
+import ProjectImage1 from "../../project-images/TadreebTech.png"
+import ProjectImage2 from "../../project-images/Mabi3a.png"
+import ProjectImage3 from "../../project-images/Portofy.png"
 
-const projectImages: Record<string, string> = {
-    'project-1': '/project-images/project-1.jpg',
-    'project-2': '/project-images/project-2.jpg',
-    'project-3': '/project-images/project-3.jpg',
+
+const projectImages: Record<string, any> = {
+    'project-1': ProjectImage1,
+    'project-2': ProjectImage2,
+    'project-3': ProjectImage3,
 };
 
 
@@ -37,7 +41,7 @@ export function ProjectsSection() {
                       alt={project.title}
                       width={600}
                       height={400}
-                      className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-105"
+                      className="object-cover w-full transition-transform duration-300 group-hover:scale-105"
                     />
                   )}
                 </CardContent>
