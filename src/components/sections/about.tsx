@@ -32,14 +32,6 @@ export function AboutSection() {
                 {aboutMe.description}
               </p>
             </div>
-            <div className="flex flex-col gap-4 sm:flex-row">
-              <Button size="lg" asChild>
-                <a href={socialLinks.resume} download>
-                  <Download className="mr-2 h-4 w-4" />
-                  Download CV
-                </a>
-              </Button>
-            </div>
           </div>
         </div>
       </div>
