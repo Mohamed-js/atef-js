@@ -9,16 +9,6 @@ export function Footer() {
         <p className="text-sm text-muted-foreground">
           &copy; {new Date().getFullYear()} {aboutMe.name}. All rights reserved.
         </p>
-        <div className="flex items-center gap-4">
-          <Link href={socialLinks.github} className="text-muted-foreground hover:text-primary transition-colors" prefetch={false} target="_blank" rel="noopener noreferrer">
-            <GithubIcon className="h-6 w-6" />
-            <span className="sr-only">GitHub</span>
-          </Link>
-          <Link href={socialLinks.linkedin} className="text-muted-foreground hover:text-primary transition-colors" prefetch={false} target="_blank" rel="noopener noreferrer">
-            <LinkedinIcon className="h-6 w-6" />
-            <span className="sr-only">LinkedIn</span>
-          </Link>
-        </div>
       </div>
     </footer>
   );
