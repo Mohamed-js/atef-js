@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { aboutMe, socialLinks } from "@/lib/data";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
+import Me from "../../project-images/me.jpg"
 
 export function AboutSection() {
   return (
@@ -13,7 +14,7 @@ export function AboutSection() {
             <Card className="w-full max-w-md overflow-hidden shadow-2xl transform-gpu transition-all hover:scale-105">
               <CardContent className="p-0">
                 <Image
-                  src="/project-images/about-me.jpg"
+                  src={Me}
                   alt={`Portrait of ${aboutMe.name}`}
                   width={600}
                   height={600}
