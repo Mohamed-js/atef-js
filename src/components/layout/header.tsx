@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Code2 } from "lucide-react";
+import { aboutMe } from "@/lib/data";
 
 export function Header() {
   const navItems = [
@@ -14,7 +15,7 @@ export function Header() {
       <div className="container mx-auto px-4 md:px-6 h-16 flex items-center justify-between">
         <Link href="#" className="flex items-center gap-2" prefetch={false}>
           <Code2 className="h-7 w-7 text-primary" />
-          <span className="font-headline text-xl font-bold">Portfolio Pro</span>
+          <span className="font-headline text-xl font-bold">{aboutMe.name}</span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
           {navItems.map((item) => (

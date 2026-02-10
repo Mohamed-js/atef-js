@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { BackgroundBeams } from "@/components/background-beams";
 import { ArrowRight } from "lucide-react";
+import { aboutMe } from "@/lib/data";
 
 export function HeroSection() {
   return (
@@ -11,11 +12,11 @@ export function HeroSection() {
           <div className="space-y-4">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
               <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-400 to-pink-500 animate-gradient-x">
-                John Doe
+                {aboutMe.name}
               </span>
             </h1>
             <p className="max-w-[700px] mx-auto text-muted-foreground md:text-xl">
-              A passionate Full-Stack Developer creating modern, responsive, and performant web applications.
+              Innovative FullStack Engineer with expertise in building and optimizing web and mobile applications.
             </p>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row">
@@ -34,4 +35,3 @@ export function HeroSection() {
     </section>
   );
 }
-
