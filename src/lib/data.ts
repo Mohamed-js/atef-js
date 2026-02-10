@@ -27,10 +27,10 @@ export const projects = [
     image: "project-2",
   },
   {
-    title: "PetsMating",
-    description: "A mobile app for pet owners to connect and arrange breeding opportunities.",
-    tags: ["Flutter", "React.js", "Bootstrap", "Laravel", "Node.js", "MySQL"],
-    link: "#",
+    title: "Portofy Me",
+    description: "A portfolio and social links hub creator, which also generates a professional resume from user-provided information.",
+    tags: ["Next.js", "Portfolio Builder", "Resume Generator", "Social Links"],
+    link: "https://portofyme.vercel.app/",
     image: "project-3",
   },
 ];
