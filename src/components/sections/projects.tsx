@@ -3,9 +3,15 @@ import Link from "next/link";
 import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { projects } from "@/lib/data";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Badge } from "../ui/badge";
 import { ArrowRight } from "lucide-react";
+
+const projectImages: Record<string, string> = {
+    'project-1': '/project-images/project-1.jpg',
+    'project-2': '/project-images/project-2.jpg',
+    'project-3': '/project-images/project-3.jpg',
+};
+
 
 export function ProjectsSection() {
   return (
@@ -21,18 +27,17 @@ export function ProjectsSection() {
         </div>
         <div className="grid gap-8 mt-12 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((project) => {
-            const projectImage = PlaceHolderImages.find(p => p.id === project.image);
+            const projectImage = projectImages[project.image];
             return (
               <Card key={project.title} className="flex flex-col overflow-hidden group transform-gpu transition-all duration-300 hover:-translate-y-2">
                 <CardContent className="p-0">
                   {projectImage && (
                     <Image
-                      src={projectImage.imageUrl}
+                      src={projectImage}
                       alt={project.title}
                       width={600}
                       height={400}
                       className="object-cover w-full h-48 transition-transform duration-300 group-hover:scale-105"
-                      data-ai-hint={projectImage.imageHint}
                     />
                   )}
                 </CardContent>

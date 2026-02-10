@@ -1,12 +1,10 @@
 import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 import { aboutMe, socialLinks } from "@/lib/data";
-import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { Button } from "../ui/button";
 import { Download } from "lucide-react";
 
 export function AboutSection() {
-  const aboutImage = PlaceHolderImages.find(p => p.id === 'about-me');
   return (
     <section id="about" className="w-full py-16 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6">
@@ -14,16 +12,13 @@ export function AboutSection() {
           <div className="flex justify-center items-center">
             <Card className="w-full max-w-md overflow-hidden shadow-2xl transform-gpu transition-all hover:scale-105">
               <CardContent className="p-0">
-                {aboutImage && (
-                  <Image
-                    src={aboutImage.imageUrl}
-                    alt={aboutImage.description}
-                    width={600}
-                    height={600}
-                    className="object-cover w-full h-full"
-                    data-ai-hint={aboutImage.imageHint}
-                  />
-                )}
+                <Image
+                  src="/project-images/about-me.jpg"
+                  alt={`Portrait of ${aboutMe.name}`}
+                  width={600}
+                  height={600}
+                  className="object-cover w-full h-full"
+                />
               </CardContent>
             </Card>
           </div>
