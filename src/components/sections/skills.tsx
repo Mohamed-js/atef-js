@@ -37,7 +37,7 @@ function SkillsContent() {
     <div className="grid gap-12">
       <div className="flex flex-wrap justify-center gap-4">
         {skillsData.map((skill) => (
-          <Badge key={skill} variant="default" className="text-sm px-4 py-2 transform-gpu transition-all hover:scale-110 hover:shadow-lg cursor-default bg-secondary text-secondary-foreground hover:bg-accent">
+          <Badge key={skill} variant="secondary" className="text-sm px-4 py-2 transform-gpu transition-all hover:scale-110 cursor-default">
             {skill}
           </Badge>
         ))}

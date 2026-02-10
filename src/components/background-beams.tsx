@@ -15,7 +15,8 @@ export const BackgroundBeams = ({
         className
       )}
     >
-       <div className="absolute inset-0 h-full w-full bg-background bg-[radial-gradient(#394254,transparent_1.5px)] [background-size:32px_32px]"></div>
+       <div className="absolute inset-0 h-full w-full bg-background bg-[radial-gradient(hsl(var(--primary)/0.15),transparent_1.5px)] [background-size:32px_32px] animate-pulse"></div>
+       <div className="absolute inset-0 bg-background/80 backdrop-blur-sm" />
     </div>
   );
 };

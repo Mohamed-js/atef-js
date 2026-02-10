@@ -8,10 +8,10 @@ export function HeroSection() {
   return (
     <section id="home" className="relative w-full h-[80dvh] min-h-[500px] flex items-center justify-center text-center overflow-hidden">
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="flex flex-col items-center space-y-6">
+        <div className="flex flex-col items-center space-y-6 animate-float">
           <div className="space-y-4">
             <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-6xl md:text-7xl lg:text-8xl">
-              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-purple-400 to-pink-500 animate-gradient-x">
+              <span className="bg-clip-text text-transparent bg-gradient-to-r from-primary via-accent to-primary animate-gradient-x">
                 {aboutMe.name}
               </span>
             </h1>
