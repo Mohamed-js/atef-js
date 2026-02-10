@@ -1,3 +1,28 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "project-1",
+      "description": "A screenshot of an e-commerce platform homepage",
+      "imageUrl": "https://images.unsplash.com/photo-1664455340023-214c33a9d0bd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwyfHxvbmxpbmUlMjBzaG9wcGluZ3xlbnwwfHx8fDE3NzA3NTMzMDh8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online shopping"
+    },
+    {
+      "id": "project-2",
+      "description": "A task management application interface",
+      "imageUrl": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxrYW5iYW4lMjBib2FyZHxlbnwwfHx8fDE3NzA2ODU4NjN8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "kanban board"
+    },
+    {
+      "id": "project-3",
+      "description": "A developer portfolio website",
+      "imageUrl": "https://images.unsplash.com/photo-1603943761979-879c839ac8e6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxjb2RlJTIwZWRpdG9yfGVufDB8fHx8MTc3MDcxNzAzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "code editor"
+    },
+    {
+      "id": "about-me",
+      "description": "A portrait of a developer",
+      "imageUrl": "https://images.unsplash.com/photo-1689218742414-ddd3e7a622f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxkZXZlbG9wZXIlMjBwb3J0cmFpdHxlbnwwfHx8fDE3NzA2ODY3NTV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "developer portrait"
+    }
+  ]
 }
